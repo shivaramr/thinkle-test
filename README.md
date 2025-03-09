@@ -3,8 +3,9 @@
 This is a website developed using ReactJS and ViteJS as part of the interview process for the company Thinkle, or in simple words, its "Thinkle React.js Hiring Assignment".
 
 The website was developed,
+
 Refering to the designs from: https://www.figma.com/design/1ltrFk9mr5EUz8MjtOIGZQ/Task-9?node-id=0-1&p=f&t=zKTGF677g8S5Av6q-0
-Documentation from: 
+Documentation from: https://github.com/shivaramr/thinkle-test/blob/master/public/Thinkle%20React.js9.pdf
 
 No design library was used. Raw png images were used for icons and the rest all are developed from scratch using html and css. React-router-dom was used for navigations. Only React and React-router-dom was used to develop the project.
 
