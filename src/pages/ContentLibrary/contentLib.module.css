@@ -1,0 +1,84 @@
+.main {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f8fa;
+}
+
+.main main {
+  padding: 1em 0em;
+  border-radius: 16px;
+  background-color: #fff;
+  flex-grow: 1;
+  box-shadow: 4px 4px 10px 5px #9696961a;
+
+  /* Enable Horizontal Scroll */
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  /* Ensure it takes full width but allows scrolling */
+  width: 100%;
+  max-width: 100vw;
+}
+
+.main main h2 {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -3%;
+  padding: 0px 16px;
+  margin: 4px 0px;
+}
+
+.contentTable {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 800px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.contentTable thead tr {
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.contentTable th,
+.contentTable td {
+  padding: 12px 15px;
+  max-width: 48px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+}
+.contentTable td:nth-child(4),
+.contentTable td:nth-child(5) {
+  max-width: 60px;
+}
+
+.contentTable tbody tr {
+  /* font-family: Lato; */
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: -3%;
+  color: #4d4d4d;
+}
+
+.contentTable tbody tr.active-row {
+  font-weight: bold;
+}
+
+.badge {
+  padding: 8px;
+  border-radius: 8px;
+  min-width: 52px;
+  max-width: 100px;
+}

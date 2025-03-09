@@ -1,0 +1,13 @@
+.main h1 {
+  margin: 0.35em 0em;
+}
+
+.main p {
+  font-family: Lato;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: -3%;
+  color: #868894;
+  margin: 0.35em 0em;
+}

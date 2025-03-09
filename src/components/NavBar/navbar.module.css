@@ -1,0 +1,70 @@
+.navbarMain {
+  position: relative;
+  width: 100%;
+  /* height: 111px; */
+  /* padding: 3.75rem 0 0 1.25rem; */
+  padding: 1.25rem;
+  overflow-x: auto;
+  background: #f6f8fa;
+}
+
+/* Hamburger button styles */
+.expndBtn {
+  height: min-content;
+  width: min-content;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Off-canvas menu - hidden off-screen initially */
+.offCanvasMenu {
+  position: fixed;
+  top: 0;
+  left: -285px; /* Initially off the screen */
+  width: 250px;
+  /* height: 100%; */
+  height: -webkit-fill-available;
+  background-color: #000000;
+  color: white;
+  padding: 1rem;
+  transition: left 0.3s ease-in-out; /* Smooth transition for the left property */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
+}
+
+/* When the menu is open, slide it in */
+.offCanvasMenu.open {
+  left: 0; /* Slide into view */
+}
+
+/* Close button at the top */
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px; /* Position the close button at the top-right corner */
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+/* Menu items inside the off-canvas menu */
+.menuItems {
+  list-style: none;
+  padding: 0;
+  margin-top: 50px; /* Add space so the menu items don't overlap with the close button */
+  flex-grow: 1;
+}
+
+.menuItems li {
+  margin-bottom: 1.5rem;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.menuItems li:hover {
+  color: #ccc;
+}

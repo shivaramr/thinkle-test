@@ -1,0 +1,113 @@
+/* Main container for the menu */
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Menu item styles */
+.menuOption {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  color: #666666;
+  padding: 12px 15px;
+}
+
+.menuOption img {
+  filter: brightness(0.5);
+}
+
+.menuOption:hover {
+  color: #ccc;
+}
+
+.menuOption:hover img {
+  filter: brightness(1);
+}
+
+/* Styles for selected menu item */
+.selectedMenuOption {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  color: #000000;
+  padding: 12px 15px;
+  background: #fceb00;
+  border-radius: 12px;
+}
+
+.selectedMenuOption img {
+  filter: brightness(0) contrast(1000%) grayscale(100%);
+}
+
+/* Expand icon styling */
+.expndIcn {
+  margin-left: auto;
+}
+
+/* Submenu container styles */
+.subMenu {
+  margin-left: 12px;
+  margin-top: 12px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out; /* Smooth transition for expanding/collapsing */
+}
+.subMenu a {
+  text-decoration: none;
+}
+.subMenu.expanded {
+  max-height: 500px; /* Ensure the submenu has a max height when expanded */
+  transition: max-height 0.75s ease-in;
+}
+
+/* Submenu item styling */
+.subMenuItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  color: #666666;
+  padding: 8px 16px;
+  margin-left: 16px;
+  border-left: 1px solid #666666;
+  opacity: 0;
+  transform: translateY(10px); /* Start with a small offset */
+  animation: fadeInUp 0.5s forwards; /* Apply the animation */
+}
+.subMenuItem.selected {
+  border-left: 1px solid #fceb00;
+  color: white;
+}
+.subMenuItem.selected img {
+  filter: brightness(1);
+}
+/* Submenu item image styling */
+.subMenuItem img {
+  filter: brightness(0.5);
+}
+
+/* Hover effect for submenu items */
+.subMenuItem:hover {
+  color: #ccc;
+  border-left: 1px solid #ccc;
+}
+
+.subMenuItem:hover img {
+  filter: brightness(1);
+}
+
+/* Animation for submenu items appearing one by one */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px); /* Start below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* End in normal position */
+  }
+}
