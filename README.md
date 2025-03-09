@@ -8,10 +8,8 @@ Documentation from: https://github.com/shivaramr/thinkle-test/blob/master/public
 
 No design library was used. Raw png images were used for icons and the rest all are developed from scratch using html and css. React-router-dom was used for navigations. Only React and React-router-dom was used to develop the project.
 
-The website can be accessed at: https://thinkle-test.vercel.app/
-
-<!-- You can have a look at the demo of this website at: https://youtu.be/_eP73lSRWS0
-This website was developed refering to the tutorial: https://www.youtube.com/watch?v=2kL28Qyw9-0 -->
+The website can be accessed at: https://thinkle-test.vercel.app/ <br>
+You can have a look at the demo of this website at: https://www.youtube.com/watch?v=LhIFnej1K48
 
 ## Features
 
