@@ -33,24 +33,29 @@ Here are some screenshots of the developed dashboard:
 
 ## Setup (Setting Up in Local)
 
-- Go to https://github.com/shivaramr/thinkle-test
-- Click on the green button with label "<> Code", visible on screen
-- Copy respective url (https://github.com/shivaramr/thinkle-test.git)
-- Open the directory in your local system where you want to have the code
-- Open terminal at the respective directory (Use cmd at navigation bar or right click and select Open Terminal)
-- Run the command " git clone https://github.com/shivaramr/thinkle-test.git "
+1. Go to https://github.com/shivaramr/thinkle-test
+2. Click on the green button with label "<> Code", visible on screen
+3. Copy respective url (https://github.com/shivaramr/thinkle-test.git)
+4. Open the directory in your local system where you want to have the code
+5. Open terminal at the respective directory (Use cmd at navigation bar or right click and select Open Terminal)
+6. Run the command " git clone https://github.com/shivaramr/thinkle-test.git "
 ```bash
 git clone https://github.com/shivaramr/thinkle-test.git
 ```
-- Now Open the folder where all project files have been imported
-- Open the parent folder (screen where src is available) using Visual Studio Code (Either you can by typing "code ." in your terminal or you can right click on the screen and select the option "Open with VSCode")
-- Open the terminal in VSCode
-- Run the following command,
+7. Now Open the folder where all project files have been imported
+8. Open the parent folder (screen where src is available) using Visual Studio Code (Either you can by typing "code ." in your terminal or you can right click on the screen and select the option "Open with VSCode")
+9. Open the terminal in VSCode
+10. Run the following command,
 ```bash
 npm install
 ```
-- Once installation is complete, run the command,
+11. Once installation is complete, run the command,
 ```bash
 npm run dev
 ```
-- Now open your respective browser and go to " localhost:5173 " 
+12. Now open your respective browser and go to " localhost:5173 " 
+13. Please Note: Only content Library page has displayable code, so go to the respective page from the side bar, Open "Admin" => Click "Content Library", also buttons implemented are for mock up purpose only, functionality is yet to be implemented.
+
+
+## Deployment
+
