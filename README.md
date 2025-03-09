@@ -29,4 +29,4 @@ This website was developed refering to the tutorial: https://www.youtube.com/wat
 
 Here are some screenshots of the developed dashboard:
 
-![Thinkle Dashboard Sample](https://github.com/shivaramr/redux-movie-app/assets/85446156/2a53fbe7-64d4-421a-afd3-b1137fbc261b)
+![Thinkle Dashboard Sample](https://github.com/shivaramr/thinkle-test/blob/master/public/thinkle-test.png?raw=true)
