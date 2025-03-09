@@ -88,6 +88,11 @@
   justify-self: self-end;
 }
 
+@media (max-width: 768px) {
+  .popupBox button {
+    width: 100%;
+  }
+}
 .popupBox button:hover {
   background-color: #28282b;
 }
