@@ -39,9 +39,18 @@ Here are some screenshots of the developed dashboard:
 - Open the directory in your local system where you want to have the code
 - Open terminal at the respective directory (Use cmd at navigation bar or right click and select Open Terminal)
 - Run the command " git clone https://github.com/shivaramr/thinkle-test.git "
+```bash
+git clone https://github.com/shivaramr/thinkle-test.git
+```
 - Now Open the folder where all project files have been imported
 - Open the parent folder (screen where src is available) using Visual Studio Code (Either you can by typing "code ." in your terminal or you can right click on the screen and select the option "Open with VSCode")
 - Open the terminal in VSCode
-- Run the following command " npm install "
-- Once installation is complete, run the command " npm run dev "
+- Run the following command,
+```bash
+npm install
+```
+- Once installation is complete, run the command,
+```bash
+npm run dev
+```
 - Now open your respective browser and go to " localhost:5173 " 
